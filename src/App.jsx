@@ -4,7 +4,7 @@ import ChatForm from "./components/ChatForm";
 import ChatMessage from "./components/ChatMessage";
 
 const App = () => {
-  const [chatHistory, setChatHistory] = useState([]);
+  const [chatHistory, setChatHistory] = useState([]);cón
 
   const generateBotResponse = async (history) => {
     //helper function to update chat history
